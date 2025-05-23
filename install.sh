@@ -3,10 +3,10 @@
 npm install uuid
 
 # 使用 Node.js 脚本生成 UUID 并赋值给环境变量
-export UUID=$(node -e "const { v4: uuidv4 } = require('uuid'); console.log(uuidv4());")
+export UUID="672e8d38-a9da-4bac-8e71-5d04497caa88"
 
 # 调试输出：确认 UUID 已生成
-echo "Generated UUID: $UUID"
+# echo "Generated UUID: $UUID"
 
 # --- 哪吒探针配置 ---
 export NEZHA_SERVER=""          # 哪吒面板域名。v1 填写形式：nezha.xxx.com:8008；v0 填写形式：nezha.xxx.com
