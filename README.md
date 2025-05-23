@@ -8,7 +8,7 @@
 ---
 ## 运行命令
 ```
-wget https://raw.githubusercontent.com/byJoey/idx-free/refs/heads/main/install.sh
+wget https://github.com/zhujingan123/idx-free/raw/refs/heads/main/install.sh
 bash install.sh
 ```
 ## 核心改动说明
